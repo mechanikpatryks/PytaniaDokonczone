@@ -26,6 +26,7 @@ public class PodpowiedzActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         //Pod commit widok
         //Przycisk lewo prawo
+        //Obsługa switch
         setContentView(R.layout.activity_podpowiedz);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
