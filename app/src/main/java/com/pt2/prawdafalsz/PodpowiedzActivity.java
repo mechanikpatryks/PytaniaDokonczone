@@ -27,6 +27,7 @@ public class PodpowiedzActivity extends AppCompatActivity {
         //Pod commit widok
         //Przycisk lewo prawo
         //Obsługa switch
+        //Obsługa edittext
         setContentView(R.layout.activity_podpowiedz);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
