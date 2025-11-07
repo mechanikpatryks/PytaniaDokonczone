@@ -19,10 +19,13 @@ public class PodpowiedzActivity extends AppCompatActivity {
 
     public ImageView obrazek;
     ArrayList<Pytanie> pytania;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
+        //Pod commit widok
+        //Przycisk lewo prawo
         setContentView(R.layout.activity_podpowiedz);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
